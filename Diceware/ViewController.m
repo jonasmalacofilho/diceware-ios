@@ -1,17 +1,9 @@
-//
-//  ViewController.m
-//  SingleViewTest
-//
-//  Created by Jonas Malaco Filho on 10/8/15.
-//  Copyright © 2015 Elebeta. All rights reserved.
-//
-
 #include <stdlib.h>
 #import "ViewController.h"
 
 @interface ViewController ()
 @property NSArray* words;
-@property (weak, nonatomic) IBOutlet UITextField *wordBox;
+@property (weak, nonatomic) IBOutlet UITextField* wordBox;
 @end
 
 @implementation ViewController

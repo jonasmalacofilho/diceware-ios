@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD71D62F1BC6C00500769D1A /* SingleViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD71D62F1BC6C00500769D1A /* Diceware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diceware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD71D6331BC6C00500769D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD71D6351BC6C00500769D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD71D6361BC6C00500769D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,7 +26,6 @@
 		DD71D63E1BC6C00500769D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD71D6411BC6C00500769D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD71D6431BC6C00500769D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD71D6491BC6FDFA00769D1A /* SingleViewTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SingleViewTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +42,7 @@
 		DD71D6261BC6C00500769D1A = {
 			isa = PBXGroup;
 			children = (
-				DD71D6311BC6C00500769D1A /* SingleViewTest */,
+				DD71D6311BC6C00500769D1A /* Diceware */,
 				DD71D6301BC6C00500769D1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,15 +50,14 @@
 		DD71D6301BC6C00500769D1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD71D62F1BC6C00500769D1A /* SingleViewTest.app */,
+				DD71D62F1BC6C00500769D1A /* Diceware.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD71D6311BC6C00500769D1A /* SingleViewTest */ = {
+		DD71D6311BC6C00500769D1A /* Diceware */ = {
 			isa = PBXGroup;
 			children = (
-				DD71D6491BC6FDFA00769D1A /* SingleViewTest.entitlements */,
 				DD71D6351BC6C00500769D1A /* AppDelegate.h */,
 				DD71D6361BC6C00500769D1A /* AppDelegate.m */,
 				DD71D6381BC6C00500769D1A /* ViewController.h */,
@@ -70,7 +68,7 @@
 				DD71D6431BC6C00500769D1A /* Info.plist */,
 				DD71D6321BC6C00500769D1A /* Supporting Files */,
 			);
-			path = SingleViewTest;
+			path = Diceware;
 			sourceTree = "<group>";
 		};
 		DD71D6321BC6C00500769D1A /* Supporting Files */ = {
@@ -84,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD71D62E1BC6C00500769D1A /* SingleViewTest */ = {
+		DD71D62E1BC6C00500769D1A /* Diceware */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD71D6461BC6C00500769D1A /* Build configuration list for PBXNativeTarget "SingleViewTest" */;
+			buildConfigurationList = DD71D6461BC6C00500769D1A /* Build configuration list for PBXNativeTarget "Diceware" */;
 			buildPhases = (
 				DD71D62B1BC6C00500769D1A /* Sources */,
 				DD71D62C1BC6C00500769D1A /* Frameworks */,
@@ -96,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = SingleViewTest;
-			productName = SingleViewTest;
-			productReference = DD71D62F1BC6C00500769D1A /* SingleViewTest.app */;
+			name = Diceware;
+			productName = Diceware;
+			productReference = DD71D62F1BC6C00500769D1A /* Diceware.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD71D62A1BC6C00500769D1A /* Build configuration list for PBXProject "SingleViewTest" */;
+			buildConfigurationList = DD71D62A1BC6C00500769D1A /* Build configuration list for PBXProject "Diceware" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD71D62E1BC6C00500769D1A /* SingleViewTest */,
+				DD71D62E1BC6C00500769D1A /* Diceware */,
 			);
 		};
 /* End PBXProject section */
@@ -224,9 +222,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -262,8 +261,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -274,14 +274,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = SingleViewTest/SingleViewTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = SingleViewTest/Info.plist;
+				INFOPLIST_FILE = Diceware/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.elebeta.SingleViewTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.elebeta.Diceware;
+				PRODUCT_NAME = Diceware;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -290,14 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = SingleViewTest/SingleViewTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = SingleViewTest/Info.plist;
+				INFOPLIST_FILE = Diceware/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.elebeta.SingleViewTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.elebeta.Diceware;
+				PRODUCT_NAME = Diceware;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD71D62A1BC6C00500769D1A /* Build configuration list for PBXProject "SingleViewTest" */ = {
+		DD71D62A1BC6C00500769D1A /* Build configuration list for PBXProject "Diceware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD71D6441BC6C00500769D1A /* Debug */,
@@ -314,13 +314,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD71D6461BC6C00500769D1A /* Build configuration list for PBXNativeTarget "SingleViewTest" */ = {
+		DD71D6461BC6C00500769D1A /* Build configuration list for PBXNativeTarget "Diceware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD71D6471BC6C00500769D1A /* Debug */,
 				DD71D6481BC6C00500769D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

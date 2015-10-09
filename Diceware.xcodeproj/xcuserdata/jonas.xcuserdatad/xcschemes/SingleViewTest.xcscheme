@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD71D62E1BC6C00500769D1A"
-               BuildableName = "SingleViewTest.app"
-               BlueprintName = "SingleViewTest"
-               ReferencedContainer = "container:SingleViewTest.xcodeproj">
+               BuildableName = "Diceware.app"
+               BlueprintName = "Diceware"
+               ReferencedContainer = "container:Diceware.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD71D62E1BC6C00500769D1A"
-            BuildableName = "SingleViewTest.app"
-            BlueprintName = "SingleViewTest"
-            ReferencedContainer = "container:SingleViewTest.xcodeproj">
+            BuildableName = "Diceware.app"
+            BlueprintName = "Diceware"
+            ReferencedContainer = "container:Diceware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD71D62E1BC6C00500769D1A"
-            BuildableName = "SingleViewTest.app"
-            BlueprintName = "SingleViewTest"
-            ReferencedContainer = "container:SingleViewTest.xcodeproj">
+            BuildableName = "Diceware.app"
+            BlueprintName = "Diceware"
+            ReferencedContainer = "container:Diceware.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD71D62E1BC6C00500769D1A"
-            BuildableName = "SingleViewTest.app"
-            BlueprintName = "SingleViewTest"
-            ReferencedContainer = "container:SingleViewTest.xcodeproj">
+            BuildableName = "Diceware.app"
+            BlueprintName = "Diceware"
+            ReferencedContainer = "container:Diceware.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
