@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,49 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press the button to generate a new word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAX-24-dPq">
+                                <rect key="frame" x="145" y="231" width="311" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRC-T3-3Pi">
+                                <rect key="frame" x="238" y="275" width="125" height="51"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <state key="normal" title="Diceware"/>
+                                <connections>
+                                    <action selector="generate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IFb-8i-nuu"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1cV-Fs-TCn">
+                                <rect key="frame" x="60" y="341" width="480" height="18"/>
+                                <color key="textColor" red="0.96358358860015869" green="0.29660197850004083" blue="0.16239396679134574" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1cV-Fs-TCn" firstAttribute="top" secondItem="XRC-T3-3Pi" secondAttribute="bottom" constant="15" id="2Ua-sM-eLJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1cV-Fs-TCn" secondAttribute="trailing" constant="40" id="9V0-J8-HuU"/>
+                            <constraint firstItem="XRC-T3-3Pi" firstAttribute="top" secondItem="nAX-24-dPq" secondAttribute="bottom" constant="23" id="CDr-gZ-yi8"/>
+                            <constraint firstItem="nAX-24-dPq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FUy-qq-Qdf"/>
+                            <constraint firstItem="1cV-Fs-TCn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JrC-7b-Jqi"/>
+                            <constraint firstItem="1cV-Fs-TCn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="S8N-Lt-4Xd"/>
+                            <constraint firstItem="XRC-T3-3Pi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zf8-ch-9gp"/>
+                            <constraint firstItem="XRC-T3-3Pi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bkQ-uR-UAO"/>
+                            <constraint firstItem="XRC-T3-3Pi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nsK-WE-VAs"/>
+                            <constraint firstItem="nAX-24-dPq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sZy-tV-GAH"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="wordBox" destination="1cV-Fs-TCn" id="zTN-KV-hAf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="145" y="349"/>
         </scene>
     </scenes>
 </document>
